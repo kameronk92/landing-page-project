@@ -1,7 +1,27 @@
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   background-color :blueviolet;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-  color:cyan;
+  height: 72px;
+  color:white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-direction: row;
 }
