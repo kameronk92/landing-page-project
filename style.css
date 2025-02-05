@@ -5,18 +5,14 @@ body {
   flex-direction: column;
 }
 
-.container {
-  background-color :blueviolet;
-  display: flex;
-  justify-content: space-between;
-}
-
 .header {
-  height: 72px;
-  color:white;
+  color: #F9FAF8;
   background-color: #1f2937;
+  font-weight: 600;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
+  padding: 200px, 20px;
 }
 
 .ul {
@@ -24,4 +20,29 @@ body {
   list-style: none;
   align-items: center;
   flex-direction: row;
+  color: #e5e7eb;
+  height: 18px;
+  margin: 20px;
+}
+
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 80px;
+}
+
+a {
+  color: #e5e7eb;
+  height: 18px;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.container {
+  background-color :blueviolet;
+  display: flex;
+  justify-content: space-between;
 }
