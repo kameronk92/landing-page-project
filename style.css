@@ -117,8 +117,8 @@ img {
   display: flex;
   flex-direction: row; 
   justify-content: space-evenly;
-  flex: 1; 
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .container.four img {
@@ -136,12 +136,30 @@ img {
 .container.four figcaption {
   font-size: 14px;
   color: #1f2937;
-  display: block;
   font-weight: 200;
+  max-width: 110px;
 }
 
 .container.five {
+  display: flex;
+  flex-direction: column;
   background-color: #E5E7EB;
+  padding: 80px 200px;
+}
+
+.container.five p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.container.five a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  align-self: flex-end;
+  margin-right: 50px;
 }
 
 .footer {
