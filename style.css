@@ -6,41 +6,9 @@ body {
 
 a {
   color: #e5e7eb;
-  height: 18px;
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
-}
-
-.header {
-  color: #f9faf8;
-  background-color: #1f2937;
-  font-weight: 600;
-  font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 200px, 20px;
-}
-
-.header a {
-  margin-left: 10px;
-}
-
-.left,
-.right {
-  display: flex;
-  align-items: center;
-  padding: 20px 80px;
-}
-
-.ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  flex-direction: row;
-  color: #e5e7eb;
-  height: 18px;
-  margin: 20px;
 }
 
 button {
@@ -52,16 +20,40 @@ button {
   border-style: solid;
 }
 
+img {
+  width: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.header,
 .container.one {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px 80px;
   color: #f9faf8;
   background-color: #1f2937;
   font-weight: 600;
   font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.header a {
+  margin-left: 10px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: #e5e7eb;
+  height: 18px;
+  margin: 20px;
 }
 
 .container.two {
@@ -79,24 +71,15 @@ button {
   color: #f9faf8;
   font-weight: 900;
   display: block;
-  height: auto;
 }
 
 .container.two p {
   font-size: 18px;
   color: #e5e7eb;
-  display: block;
-  word-wrap: break-word;
 }
 
 .container.two button {
   border: none;
-}
-
-img {
-  width: auto;
-  max-height: 300px;
-  object-fit: contain;
 }
 
 .container.three {
