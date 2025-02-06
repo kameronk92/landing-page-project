@@ -1,8 +1,15 @@
 body {
-  color: white;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+}
+
+a {
+  color: #e5e7eb;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .header  {
@@ -15,6 +22,13 @@ body {
   padding: 200px, 20px;
 }
 
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 80px;
+}
+
 .ul {
   display: flex;
   list-style: none;
@@ -25,26 +39,23 @@ body {
   margin: 20px;
 }
 
-.left, .right{
+.container.one {
+  color: #F9FAF8;
+  background-color: #1f2937;
+  font-weight: 600;
+  font-size: 20px;
   display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 20px 80px;
-}
-
-a {
-  color: #e5e7eb;
-  height: 18px;
-  font-size: 16px;
-  margin: 10px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-.container {
-  background-color :blueviolet;
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
+}
+
+.container.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 500px;
+  height: 300px;
 }
 
 .footer {
