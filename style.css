@@ -10,7 +10,6 @@ a {
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
-  margin-right: 10px;
 }
 
 .header {
@@ -21,6 +20,10 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 200px, 20px;
+}
+
+.header a {
+  margin-left: 10px;
 }
 
 .left,
@@ -41,7 +44,7 @@ a {
 }
 
 button {
-  background-color: #3882F6;
+  background-color: #3882f6;
   color: #e5e7eb;
   padding: 10px 40px;
   border-radius: 10px;
@@ -91,11 +94,35 @@ button {
 }
 
 img {
-  width: 300px;
-  height: auto;
+  width: auto;
+  max-height: 300px;
   object-fit: contain;
 }
 
+.container.four {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  flex: 1; 
+}
+
+.container.three a {
+  display: flex;
+  justify-self: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.container.four img {
+  width: 100px;
+  height: auto;
+}
+
+.container.five {
+  background-color: #E5E7EB;
+}
 .footer {
   color: #f9faf8;
   font-weight: 300;
